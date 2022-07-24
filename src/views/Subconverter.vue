@@ -425,10 +425,10 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-          "自建后端": "https://sub.9990202.xyz/sub?",
+          "自建后端": "https://subapi.9990202.xyz/sub?",
         },
         backendOptions: [
-          {value: "https://sub.9990202.xyz/sub?"},
+          {value: "https://subapi.9990202.xyz/sub?"},
         ],
         remoteConfig: [
           {
@@ -546,7 +546,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "https://sub.9990202.xyz/sub?",
+        customBackend: "https://subapi.9990202.xyz/sub?",
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
